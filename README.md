@@ -12,7 +12,7 @@ This webcomponent uses emojis to attract the user. It changes the visible emoji 
 
 ## How?
 
-Just include the webcompontent as a script in your HTML document. Create a new element named `title-status`. See the [demo](/demo.html).
+Just include the webcompontent as a script in your HTML document. Create a new element named `title-status`. See the [demo on https://nihilor.github.io/title-status/](https://nihilor.github.io/title-status/).
 
 ```html
 <title-status indicator="moon" interval="125" caption="Attention!" playplack="playback"></title-status>
