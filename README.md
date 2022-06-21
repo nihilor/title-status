@@ -28,7 +28,7 @@ The webcomponent has the following attributes:
 
 Sets one of the predefined indicator sequences.
 
-Possible values for `ìndicator` are:
+Possible values for `indicator` are:
 
 * `hearts`: a sequence of red, yellow and green hearts
 * `squares`: a sequence of red, yellow and green squares
