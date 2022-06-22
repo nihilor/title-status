@@ -17,10 +17,22 @@ This webcomponent uses emojis to attract the user. It changes the visible emoji 
 Just include the webcompontent as a script in your HTML document. Create a new element named `title-status`. See the [demo on https://nihilor.github.io/title-status/](https://nihilor.github.io/title-status/).
 
 ```html
-<title-status indicator="moon" interval="125" caption="Attention!" playplack="playback"></title-status>
+<head>
+    <title-status indicator="moon" interval="125" caption="Attention!" playback="playback"></title-status>
+</head>
 ```
 
 The benefit of this solution encapsulated in a webcomponent is, that it can be used declaratively and imperatively, in pure HTML as well as in Angular, Vuejs, React, Svelte and any framework you can imagine. Additionally, data bindung is for free.
+
+The webcomponent may also be used in the `body` section, and multiple time to prepare different indicators.
+
+```html
+<body>
+    <title-status id="status-attn" indicator="moon" interval="125" caption="Attention!" playback="playback"></title-status>
+    <title-status id="status-dngr" indicator="contrast" interval="100" caption="DANGER!"></title-status>
+    <title-status id="status-look" indicator="hands" interval="250" caption="Look here!"></title-status>
+</body>
+```
 
 ## Attributes
 
