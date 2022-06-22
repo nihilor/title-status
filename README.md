@@ -10,6 +10,8 @@ Sometimes it's necessary to inform users that something on a website changed.
 
 This webcomponent uses emojis to attract the user. It changes the visible emoji in the titlebar based on a predefined sequence.
 
+![](./docs/screenshot.jpg)
+
 ## How?
 
 Just include the webcompontent as a script in your HTML document. Create a new element named `title-status`. See the [demo on https://nihilor.github.io/title-status/](https://nihilor.github.io/title-status/).
